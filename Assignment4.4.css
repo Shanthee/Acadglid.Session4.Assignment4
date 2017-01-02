@@ -1,0 +1,42 @@
+#container {
+	clear:both;
+	padding-left: 35%;
+}
+.box1 {
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	border: 1px solid black;
+	float: left;
+	margin: 5px;
+	padding: 20px;
+	line-height: 100px;
+	text-align: center;
+	background-image: linear-gradient(to right, red,green);  /* linear gradient */
+}
+.box2 {
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	border: 1px solid black;
+	float: left;
+	margin: 5px;
+	padding: 20px;
+	line-height: 100px;
+	text-align: center;
+	background-image: radial-gradient(circle, red, yellow, green); /* to set the shape as circle */
+	background-size: 100% 200%; 
+}
+.box3 {
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+	border: 1px solid black;
+	float: left;
+	margin: 5px;
+	padding: 20px;
+	line-height: 100px;
+	text-align: center;
+	background-image: radial-gradient(red, yellow, green); /* by default the shape is ellipse */
+	background-size: 100% 200%;
+}
